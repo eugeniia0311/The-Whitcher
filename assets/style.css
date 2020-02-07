@@ -8,7 +8,7 @@ body{
 	align-items: center;
 }
 */
-.header{
+.container__header{
 	background-color: black;
 	height: 100px;
 	display: flex;
@@ -620,11 +620,16 @@ footer{
 
 }
 
-.header a:hover{
+.container__header a:hover{
 	color:red;
 	cursor: pointer;
 }
 
 .press__right h2:hover{
 	color:red;
+}
+
+.container{
+	position: relative;display: flex;
+	
 }
